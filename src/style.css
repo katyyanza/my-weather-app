@@ -34,5 +34,14 @@ body {
 }
 .list-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.list-item {
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+  background: #f4f2ec;
+  border-radius: 12px;
+  box-shadow: 0 30px 50px #41326414;
 }
