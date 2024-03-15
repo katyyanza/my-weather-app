@@ -17,7 +17,7 @@ body {
   color: #27214266;
   display: inline-block;
   font-size: 16px;
-  padding: 15px 30px;
+  padding: 10px 33px;
   border: none;
   border-radius: 6px;
 }
@@ -29,13 +29,14 @@ body {
   width: 20px;
   height: 20px;
   background-image: url(./search.png);
-  background-size: 16px;
+  background-size: 15px;
   cursor: pointer;
   background-repeat: no-repeat;
 }
 
 .top-text {
-  margin-right: 15px;
+  margin: 10px;
+  margin-right: 19px;
 }
 
 .weather-app {
