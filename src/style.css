@@ -49,17 +49,27 @@ a {
 .right-text {
   color: white;
   vertical-align: bottom;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 1px black;
   margin: 0px;
   margin-bottom: 5px;
 }
 
 .weather-temperature-number {
   font-size: 30px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 1px black;
   color: white;
 }
-
+.weather-unit {
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 36px;
+  line-height: 1;
+  position: relative;
+  top: -15px;
+  margin-left: -4px;
+}
 .card-title {
   font-size: 20px;
 }
