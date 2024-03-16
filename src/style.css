@@ -1,6 +1,9 @@
 body {
-  background-color: #f4f2ec;
+  background-color: #f1f2eb;
   font-family: "Roboto", sans-serif;
+}
+a {
+  color: #1585ce;
 }
 .initial-text {
   display: flex;
@@ -13,7 +16,7 @@ body {
 }
 .search-input {
   width: 200%;
-  background: #f4f2ec;
+  background: #faf7ee;
   color: #27214266;
   display: inline-block;
   font-size: 16px;
@@ -39,6 +42,32 @@ body {
   margin-right: 19px;
 }
 
+.weather-emoji {
+  font-size: 30px;
+}
+
+.right-text {
+  color: white;
+  vertical-align: bottom;
+  text-shadow: 1px 1px 2px black;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.weather-temperature-number {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+}
+
 .weather-app {
   background: white;
   max-width: 900px;
@@ -50,9 +79,10 @@ body {
 
 .weather-info {
   max-width: 1000px;
-  background-image: url("./back.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: url("./back.png");
+  background-position: 50% 70%;
+  background-size: 150%;
+  background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 5px;
   margin: 10px auto;
@@ -62,13 +92,17 @@ body {
   margin-bottom: 10px;
   margin-top: 80px;
   font-size: 48px;
+  text-shadow: 2px 2px 4px black;
+  color: white;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   font-size: 17px;
 }
+
 .list-items {
   display: flex;
   justify-content: space-between;
