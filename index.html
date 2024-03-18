@@ -22,13 +22,14 @@
             <p class="top-text">Weather Forecast</p>
           </div>
           <div>
-            <form>
-              <div class="search-container" id="search-form">
+            <form id="search-form">
+              <div class="search-container">
                 <input
                   type="search"
                   class="search-input"
                   placeholder="Enter a city name..."
                   required
+                  id="search-form-input"
                 />
                 <div class="search-icon"></div>
               </div>
@@ -38,7 +39,7 @@
       </header>
       <main>
         <div class="weather-info">
-          <h1 class="city-title">Quito, Ecuador</h1>
+          <h1 class="city-title" id="city">Quito, Ecuador</h1>
           <div class="container">
             <div class="left">
               <span class="weather-emoji">🌧️</span>
