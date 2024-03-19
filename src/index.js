@@ -10,12 +10,14 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#time");
   let windSpeedElement = document.querySelector("#wind-speed");
   let date = new Date(response.data.time * 1000);
-
+  let iconElement = document.querySelector("#icon");
+  console.log(iconElement);
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-emoji" />`;
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = `; ${response.data.condition.description}`;
   timeElement.innerHTML = formatDate(date);
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
   temperatureCurrentElement.innerHTML = `${Math.round(temperature)} C°`;
 }
